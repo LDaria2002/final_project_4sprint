@@ -43,7 +43,7 @@ public class ListClass {
         webDriver.get("https://qa-scooter.praktikum-services.ru/");
     }
     @Test
-    public void ImportantList() {
+    public void importantList() {
         MainPage mainPage = new MainPage(webDriver);
         mainPage.expandQuestion(index);
         boolean answerIsDisplayed = mainPage.answerIsDisplayed(answer);
